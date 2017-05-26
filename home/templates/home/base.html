@@ -34,7 +34,7 @@
         <div class="hero-container">
             <div class="wow fadeIn">
                 <div class="hero-logo">
-                    <h1> Company name or slogan </h1>
+                    <h1> Bit solution. We build a future... </h1>
                 </div>
 
                 <h2>We create <span class="rotating">functional websites, desktop applications, web-parsers.</span></h2>
@@ -54,7 +54,7 @@
 
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use a text image -->
-                <h1><a href="#hero">Company name</a></h1>
+                <h1><a href="#hero">Bit solution</a></h1>
             </div>
 
             <nav id="nav-menu-container">
@@ -89,15 +89,12 @@
         <div class="container about-container wow fadeInUp">
             <div class="row">
                 <div class="col-md-6 col-md-push-6 about-content">
-                    <h2 class="about-title">We provide great services and ideass</h2>
+                    <h2 class="about-title">We provide great services and ideas</h2>
                     <p class="about-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        Our goal is to provide the best solution to each client. We use Python as main language which is very powerful and efficient. A lot of things can be automated using wide range of existing packages. Also Python is capable of creating cross platform GUI applications. In web development Django is one of the best frameworks, such well-known sites like Pinterest, Instagram, Firefox are driven by this powerful framework. Also we use other technologies like Bootsrap, jQuery to speed up performance of your product.
                     </p>
                     <p class="about-text">
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    </p>
-                    <p class="about-text">
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        <a href="#services" class="center-block" style="text-align: center; font-weight: bold">Scroll down to find out more and leave us your feedback.</a>
                     </p>
                 </div>
             </div>
@@ -220,7 +217,7 @@
 
                 <div class="col-md-2 col-md-offset-1">
                     <div class="member">
-                        <div class="pic"><img src="{% static 'home/img/team-1.jpg' %}" alt=""></div>
+                        <div class="pic"><img src="{% static 'home/img/team-1.png' %}" alt=""></div>
                         <h4>Walter White</h4>
                         <span>Chief Executive Officer</span>
                         <div class="social">
@@ -234,7 +231,7 @@
 
                 <div class="col-md-2">
                     <div class="member">
-                        <div class="pic"><img src="{% static 'home/img/team-2.jpg' %}" alt=""></div>
+                        <div class="pic"><img src="{% static 'home/img/team-2.png' %}" alt=""></div>
                         <h4>Sarah Jhinson</h4>
                         <span>Product Manager</span>
                         <div class="social">
@@ -310,7 +307,7 @@
                     <div class="info">
                         <div>
                             <i class="fa fa-map-marker"></i>
-                            <p>Ivano-Frankivsk, UA 76002</p>
+                            <p>IVANO-FRANKIVSK, UA 76002</p>
                         </div>
 
                         <div>
@@ -325,19 +322,19 @@
                     <div class="form">
                         <div id="sendmessage">Your message has been sent. Thank you!</div>
                         <div id="errormessage"></div>
-                        <form action="/path/to/url/" method="post" class="contactForm">
+                        <form action="/home/feedback/" method="post" class="contactForm">
                             {% csrf_token %}
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 4 chars of subject" />
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
                             <div class="text-center"> <button type="submit">Send Message</button> </div>
                         </form>
@@ -356,7 +353,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        &copy; Copyright <strong>Snake Solutions</strong>. All Rights Reserved
+                        &copy; Copyright <strong>Bit Solutions</strong>. All Rights Reserved
                     </div>
                 </div>
                 </div>

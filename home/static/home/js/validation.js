@@ -32,8 +32,13 @@ $(function() {
         },
         // Make sure the form is submitted to the destination defined
         // in the "action" attribute of the form when valid
-        submitHandler: function(form) {
-            form.submit();
+        submitHandler: function(form, event) {
+            event.preventDefault();
+            $.post("/home/feedback/", $('form').serialize(), function () {
+                $("#sendmessage").toggle();
+                $("form").fadeOut();
+            });
+
         }
     });
 });

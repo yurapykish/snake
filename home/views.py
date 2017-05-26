@@ -1,16 +1,17 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
+from .models import Feedback
 
 
 def main(request):
-    # HEADER_NAME = 'head'
-    # ABOUT_NAME = 'about us'
-    # SPACER_NAME = 'spacer'
-    #
-    # header = Header.objects.get(title=HEADER_NAME)
-    # about = About.objects.get(title=ABOUT_NAME)
-    # services = Services.objects.all()
-    # spacer = Spacer.objects.get(title=SPACER_NAME)
-    # works = Work.objects.all()
-    # team = Developer.objects.all()
+    return render(request, 'home/index.html')
 
-    return render(request, 'home/index.html', locals())
+
+def feedback(request):
+    if request.method == "POST":
+        name = request.POST.get("name")
+        email = request.POST.get("email")
+        subject = request.POST.get("subject")
+        message = request.POST.get("message")
+        Feedback(name=name, email=email, subject=subject,
+                 messages=message).save()
+        return HttpResponse(b'')
