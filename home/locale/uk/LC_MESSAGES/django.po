@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-27 20:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: templates/home/base.html:38
+msgid "Bit solution. We build a future..."
+msgstr "Bit solution. Ми творимо майбутнє"
+
+#: templates/home/base.html:41
+msgid "We create"
+msgstr "Ми розробляємо"
+
+#: templates/home/base.html:41
+msgid "functional websites, desktop applications, web-parsers."
+msgstr "функціональні веб-сайти, комп'ютерні програми, веб-парсери  "
+
+#: templates/home/base.html:43
+msgid "Get Started"
+msgstr "Знайомство з сайтом"
+
+#: templates/home/base.html:44 templates/home/base.html:112
+msgid "Our Services"
+msgstr "Наші послуги"
+
+#: templates/home/base.html:63
+msgid "Home"
+msgstr "Головна"
+
+#: templates/home/base.html:64 templates/home/base.html:84
+msgid "About Us"
+msgstr "Про нас"
+
+#: templates/home/base.html:65
+msgid "Services"
+msgstr "Послуги"
+
+#: templates/home/base.html:66 templates/home/base.html:161
+msgid "Portfolio"
+msgstr "Портфоліо"
+
+#: templates/home/base.html:67
+msgid "Vacancies"
+msgstr "Вакансії"
+
+#: templates/home/base.html:68
+msgid "Team"
+msgstr "Команда розробників"
+
+#: templates/home/base.html:69 templates/home/base.html:300
+msgid "Contact Us"
+msgstr "Зв'язок з нами"
+
+#: templates/home/base.html:86
+msgid "We are young and fast-growing team who will bring your idea to life."
+msgstr ""
+"Ми молода і швидко зростаюча команда, яка приведе вашу ідею в життя. "
+"Рухаємося тільки вперед, назустріч Успіху!»"
+
+#: templates/home/base.html:93
+msgid "We provide great services and ideas"
+msgstr ""
+
+#: templates/home/base.html:95
+msgid ""
+"Our goal is to provide the best solution to each client. We use Python as "
+"main language which is very powerful and efficient. A lot of things can be "
+"automated using wide range of existing packages. Also Python is capable of "
+"creating cross platform GUI applications. In web development Django is one "
+"of the best frameworks, such well-known sites like Pinterest, Instagram, "
+"Firefox are driven by this powerful framework. Also we use other "
+"technologies like Bootsrap, jQuery to speed up performance of your product."
+msgstr ""
+"   Наша мета - забезпечити якісне вирішення проблеми для кожного "
+"клієнта.     Ми використовуємо одну з найпотужіших мов програмування "
+"Python.  Багато речей може бути автоматизовано за допомогою Python з "
+"використанням широкого спектру існуючих бібліотек.  Python здатний: "
+"створювати крос-платформенні додатки з графічним інтерфейсом.  В веб-"
+"розробці Django є один з кращих структур,за допомогою якого написані такі "
+"відомі сайти, як Pinterest, Instagram.  Крім того, ми використовуємо інші "
+"технології, такі як: Bootsrap, JQuery, щоб прискорити продуктивність Вашого "
+"продукту."
+
+#: templates/home/base.html:98
+msgid "Scroll down to find out more and leave us your feedback."
+msgstr "Нище Ви можете дізнатись більше про нас та відправити нам повідомлення"
+
+#: templates/home/base.html:114
+msgid "We'll find solution for your ideas"
+msgstr "Ми втілимо Ваші ідеї в Реальність!"
+
+#: templates/home/base.html:121
+msgid "Web development"
+msgstr "Веб-розробка"
+
+#: templates/home/base.html:122
+msgid ""
+"We build edge-cutting web applications with using such technologies like "
+"Django, HTML, CSS, jQuery, etc."
+msgstr "Технології, які ми використовуємо: Django, HTML, CSS, jQuery та інші."
+
+#: templates/home/base.html:126
+msgid "Desktop application"
+msgstr "Програми для ПК"
+
+#: templates/home/base.html:127
+msgid ""
+"If you need to build reliable, cross platform, user friendly desktop "
+"application we're here to help"
+msgstr "Ми допоможемо Вам розробити надійну та зручну програму для Вашого ПК."
+
+#: templates/home/base.html:131
+msgid "Automation boring stuff"
+msgstr "Парсинг нудних речей"
+
+#: templates/home/base.html:132
+msgid ""
+"Whenever you need to automate different tasks or extract information from "
+"web - sites we'll help you to get it done."
+msgstr "Якщо Вам потрібно автоматизувати витягування інформації з веб-сайтів, ми Вам допоможемо."
+
+#: templates/home/base.html:163
+msgid "Here's our latest works."
+msgstr "Наші роботи"
+
+#: templates/home/base.html:211
+
+msgid "Our Team"
+msgstr "Команда розробників"
+
+#: templates/home/base.html:213
+msgid "Together everyone acheves more."
+msgstr "Разом ми ... пацани додумайте))"
+
+#: templates/home/base.html:302
+msgid "We'd like to here your feedback"
+msgstr "Напишіть нам!"
+
+#: templates/home/base.html:324
+msgid "Your message has been sent. Thank you!"
+msgstr "Ваше повідомлення відправлене. Дякуємо!"
+
+#: templates/home/base.html:340
+msgid "Send Message"
+msgstr "Відправити повідомлення"

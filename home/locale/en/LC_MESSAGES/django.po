@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-27 20:51+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/home/base.html:38
+msgid "Bit solution. We build a future..."
+msgstr ""
+
+#: templates/home/base.html:41
+msgid "We create"
+msgstr ""
+
+#: templates/home/base.html:41
+msgid "functional websites, desktop applications, web-parsers."
+msgstr ""
+
+#: templates/home/base.html:43
+msgid "Get Started"
+msgstr ""
+
+#: templates/home/base.html:44 templates/home/base.html:112
+msgid "Our Services"
+msgstr ""
+
+#: templates/home/base.html:63
+msgid "Home"
+msgstr ""
+
+#: templates/home/base.html:64 templates/home/base.html:84
+msgid "About Us"
+msgstr ""
+
+#: templates/home/base.html:65
+msgid "Services"
+msgstr ""
+
+#: templates/home/base.html:66 templates/home/base.html:161
+msgid "Portfolio"
+msgstr ""
+
+#: templates/home/base.html:67
+msgid "Vacancies"
+msgstr ""
+
+#: templates/home/base.html:68
+msgid "Team"
+msgstr ""
+
+#: templates/home/base.html:69 templates/home/base.html:300
+msgid "Contact Us"
+msgstr ""
+
+#: templates/home/base.html:86
+msgid "We are young and fast-growing team who will bring your idea to life."
+msgstr ""
+
+#: templates/home/base.html:93
+msgid "We provide great services and ideas"
+msgstr ""
+
+#: templates/home/base.html:95
+msgid ""
+"Our goal is to provide the best solution to each client. We use Python as "
+"main language which is very powerful and efficient. A lot of things can be "
+"automated using wide range of existing packages. Also Python is capable of "
+"creating cross platform GUI applications. In web development Django is one "
+"of the best frameworks, such well-known sites like Pinterest, Instagram, "
+"Firefox are driven by this powerful framework. Also we use other "
+"technologies like Bootsrap, jQuery to speed up performance of your product."
+msgstr ""
+
+#: templates/home/base.html:98
+msgid "Scroll down to find out more and leave us your feedback."
+msgstr ""
+
+#: templates/home/base.html:114
+msgid "We'll find solution for your ideas"
+msgstr ""
+
+#: templates/home/base.html:121
+msgid "Web development"
+msgstr ""
+
+#: templates/home/base.html:122
+msgid ""
+"We build edge-cutting web applications with using such technologies like "
+"Django, HTML, CSS, jQuery, etc."
+msgstr ""
+
+#: templates/home/base.html:126
+msgid "Desktop application"
+msgstr ""
+
+#: templates/home/base.html:127
+msgid ""
+"If you need to build reliable, cross platform, user friendly desktop "
+"application we're here to help"
+msgstr ""
+
+#: templates/home/base.html:131
+msgid "Automation boring stuff"
+msgstr ""
+
+#: templates/home/base.html:132
+msgid ""
+"Whenever you need to automate different tasks or extract information from "
+"web - sites we'll help you to get it done."
+msgstr ""
+
+#: templates/home/base.html:163
+msgid "Here's our latest works."
+msgstr ""
+
+#: templates/home/base.html:211
+msgid "Our Team"
+msgstr ""
+
+#: templates/home/base.html:213
+msgid "Together everyone acheves more."
+msgstr ""
+
+#: templates/home/base.html:302
+msgid "We'd like to here your feedback"
+msgstr ""
+
+#: templates/home/base.html:324
+msgid "Your message has been sent. Thank you!"
+msgstr ""
+
+#: templates/home/base.html:340
+msgid "Send Message"
+msgstr ""
